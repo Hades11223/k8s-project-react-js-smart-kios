@@ -14,7 +14,7 @@ spec:
         app: reactjs
     spec:
       containers:
-      - image: mainamctk33/reactjs:1.0
+      - image: hades1122/reactjs:$BUILD_NUMBER
         imagePullPolicy: Always
         name: kios
         ports:
