@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    registry = "hades1122/test"
+    registry = "hades1122/reactjs"
     registryCredential = 'dockerhublogin'
     dockerImage = ""
   }
