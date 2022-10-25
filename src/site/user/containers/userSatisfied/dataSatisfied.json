@@ -1,0 +1,185 @@
+{
+    "data":[
+        {
+            "title":"A. Khả năng tiếp cận",
+            "data":[
+                {
+                    "code":"A1",
+                    "content":"Các biển báo, chỉ dẫn đường đến bệnh viện rõ ràng, dễ nhìn, dễ tìm.",
+                    "name":"a1"
+                },
+                {
+                    "code":"A2",
+                    "content":" Các sơ đồ, biển báo chỉ dẫn đường đến các khoa, phòng trong bệnh viện rõ ràng, dễ hiểu, dễ tìm. ",
+                    "name":"a2"
+                },
+                {
+                    "code":"A3",
+                    "content":"Các khối nhà, cầu thang được đánh số rõ ràng, dễ tìm.",
+                    "name":"a3"
+                },
+                {
+                    "code":"A4",
+                    "content":"Các lối đi trong bệnh viện, hành lang bằng phẳng, dễ đi.",
+                    "name":"a4"
+                },
+                {
+                    "code":"A5",
+                    "content":" Có thể tìm hiểu các thông tin và đăng ký khám qua điện thoại, trang tin điện tử của bệnh viện (website) thuận tiện.",
+                    "name":"a5"
+                }
+            ]
+        },
+        {
+            "title":"B. Sự minh bạch thông tin và thủ tục khám bệnh, điều trị ",
+            "data":[
+                {
+                    "code":"B1",
+                    "content":"Quy trình khám bệnh được niêm yết rõ ràng, công khai, dễ hiểu.",
+                    "name":"b1"
+                },
+                {
+                    "code":"B2",
+                    "content":" Các quy trình, thủ tục khám bệnh được cải cách đơn giản, thuận tiện. ",
+                    "name":"b2"
+                },
+                {
+                    "code":"B3",
+                    "content":"Giá dịch vụ y tế niêm yết rõ ràng, công khai. ",
+                    "name":"b3"
+                },
+                {
+                    "code":"B4",
+                    "content":"Nhân viên y tế tiếp đón, hướng dẫn người bệnh làm các thủ tục niềm nở, tận tình.",
+                    "name":"b4"
+                },
+                {
+                    "code":"B5",
+                    "content":" Được xếp hàng theo thứ tự trước sau khi làm các thủ tục đăng ký, nộp tiền, khám bệnh, xét nghiệm, chiếu chụp. ",
+                    "name":"b5"
+                },
+                {
+                    "code":"B6",
+                    "content":"Đánh giá thời gian chờ đợi làm thủ tục đăng ký khám. ",
+                    "name":"b6"
+                },
+                {
+                    "code":"B7",
+                    "content":"Đánh giá thời gian chờ tới lượt bác sỹ khám.",
+                    "name":"b7"
+                },
+                {
+                    "code":"B8",
+                    "content":" Đánh giá thời gian được bác sỹ khám và tư vấn.",
+                    "name":"b8"
+                },
+                {
+                    "code":"B9",
+                    "content":"Đánh giá thời gian chờ làm xét nghiệm, chiếu chụp.",
+                    "name":"b9"
+                },
+                {
+                    "code":"B10",
+                    "content":"Đánh giá thời gian chờ nhận kết quả xét nghiệm, chiếu chụp.",
+                    "name":"b10"
+                }
+            ]
+        },
+        {
+            "title":"C. Cơ sở vật chất và phương tiện phục vụ người bệnh ",
+            "data":[
+                {
+                    "code":"C1",
+                    "content":"Có phòng/sảnh chờ khám sạch sẽ, thoáng mát vào mùa hè; kín gió và ấm áp vào mùa đông. ",
+                    "name":"c1"
+                },
+                {
+                    "code":"C2",
+                    "content":"Phòng chờ có đủ ghế ngồi cho người bệnh và sử dụng tốt.",
+                    "name":"c2"
+                },
+                {
+                    "code":"C3",
+                    "content":" Phòng chờ có quạt (điều hòa) đầy đủ, hoạt động thường xuyên. ",
+                    "name":"c3"
+                },
+                {
+                    "code":"C4",
+                    "content":" Phòng chờ có các phương tiện giúp người bệnh có tâm lý thoải mái như ti-vi, tranh ảnh, tờ rơi, nước uống... ",
+                    "name":"c4"
+                },
+                {
+                    "code":"C5",
+                    "content":" Được bảo đảm sự riêng tư khi khám bệnh, chiếu chụp, làm thủ thuật. ",
+                    "name":"c5"
+                },
+                {
+                    "code":"C6",
+                    "content":" Nhà vệ sinh thuận tiện, sử dụng tốt, sạch sẽ. ",
+                    "name":"c6"
+                },
+                {
+                    "code":"C7",
+                    "content":"Môi trường trong khuôn viên bệnh viện xanh, sạch, đẹp. ",
+                    "name":"c7"
+                },
+                {
+                    "code":"C8",
+                    "content":"Khu khám bệnh bảo đảm an ninh, trật tự, phòng ngừa trộm cắp cho người dân. ",
+                    "name":"c8"
+                }
+            ]
+        },
+        {
+            "title":"D. Thái độ ứng xử, năng lực chuyên môn của nhân viên y tế ",
+            "data":[
+                {
+                    "code":"D1",
+                    "content":" Nhân viên y tế (bác sỹ, điều dưỡng) có lời nói, thái độ, giao tiếp đúng mực. ",
+                    "name":"d1"
+                },
+                {
+                    "code":"D2",
+                    "content":"Nhân viên phục vụ (hộ lý, bảo vệ, kế toán…) có lời nói, thái độ, giao tiếp đúng mực. ",
+                    "name":"d2"
+                },
+                {
+                    "code":"D3",
+                    "content":" Được nhân viên y tế tôn trọng, đối xử công bằng, quan tâm, giúp đỡ. ",
+                    "name":"d3"
+                },
+                {
+                    "code":"D4",
+                    "content":" Năng lực chuyên môn của bác sỹ, điều dưỡng đáp ứng mong đợi. ",
+                    "name":"d4"
+                }
+            ]
+        },
+        {
+            "title":"E. Kết quả cung cấp dịch vụ ",
+            "data":[
+                {
+                    "code":"E1",
+                    "content":" Kết quả khám bệnh đã đáp ứng được nguyện vọng của Ông/Bà. ",
+                    "name":"e1"
+                },
+                {
+                    "code":"E2",
+                    "content":" Các hóa đơn, phiếu thu, đơn thuốc và kết quả khám bệnh được cung cấp đầy đủ, rõ ràng, minh bạch và được giải thích nếu có thắc mắc. ",
+                    "name":"e2"
+                },
+                {
+                    "code":"E3",
+                    "content":" Đánh giá mức độ tin tưởng về chất lượng dịch vụ y tế. ",
+                    "name":"e3"
+                },
+                {
+                    "code":"E4",
+                    "content":"Đánh giá mức độ hài lòng về giá cả dịch vụ y tế. ",
+                    "name":"e4"
+                }
+            ]
+        }
+        
+    ]
+}

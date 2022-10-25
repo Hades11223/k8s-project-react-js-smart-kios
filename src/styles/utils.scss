@@ -1,0 +1,23 @@
+@function calc-font($size) {
+  @return #{$size/16}vw;
+}
+@mixin calc-font-size($size) {
+  font-size: calc-font($size);
+}
+
+@function calc-height($size) {
+  @return #{1600 / $size}vh;
+}
+@mixin calc-height($size) {
+  height: calc-height($size);
+}
+@function calc-width($size) {
+  $vw-context: (1000 * 0.01) * 1px;
+  @return ($size/$vw-context) * 1vw;
+}
+@mixin calc-width($size) {
+  height: calc-width($size);
+}
+@mixin margin-top($size) {
+  margin-top: calc-font($size * 0.5);
+}

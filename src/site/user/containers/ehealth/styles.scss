@@ -1,0 +1,446 @@
+@import "@styles/utils.scss";
+
+.tabs {
+  height: 8vh !important;
+  border-radius: 1vh;
+  display: flex !important;
+  .tab {
+    display: flex !important;
+    padding: 0 !important;
+    margin: 10px;
+    flex: 1;
+    flex-wrap: wrap;
+    height: 8vh !important;
+    align-items: center;
+    overflow: hidden;
+    .content-label {
+      align-items: center;
+      outline: none !important;
+      text-transform: none;
+      border: 1px solid #ffffff;
+      background-color: #3161ad;
+      box-sizing: border-box;
+      display: flex !important;
+      border-radius: 1vh;
+      padding-right: 10px;
+      .icon {
+        padding-right: 10px;
+        height: 3.5vh;
+        width: 4vh;
+        object-fit: contain;
+      }
+      .about {
+        font-size: 1vw !important;
+        color: #fff !important;
+        line-height: 3vh;
+        white-space: pre-wrap;
+        display: block;
+        font-weight: bold;
+        text-align: center;
+      }
+      &.active {
+        background-color: #ed176b !important;
+        color: #fff !important;
+      }
+      &:hover {
+        background-color: #3161ad !important;
+        color: #fff !important;
+      }
+      &:focus {
+        background-color: #3161ad !important;
+        &.active {
+          background-color: #ed176b !important;
+        }
+      }
+    }
+  }
+  .indicator {
+    background-color: transparent !important;
+  }
+}
+
+.container-ehealth {
+  // display: flex;
+  // flex-direction: row;
+  // justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  height: 100%;
+  overflow: auto;
+  .img-guide-ehealth {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    object-fit: contain;
+  }
+  .container-ehealth-input {
+    @include calc-font-size(28);
+    width: 92%;
+    margin: auto;
+    .form {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      .group-input-phone {
+        border-radius: 30px;
+        border: none;
+        background: linear-gradient(90deg, #34458a 0%, #9b51e0 126.56%);
+        display: flex;
+        padding-right: 10px;
+        padding-left: 20px;
+        align-items: center;
+        width: 34%;
+        .input-hide-phone {
+          -webkit-text-security: disc;
+          -moz-webkit-text-security: disc;
+          -moz-text-security: disc;
+        }
+        .icon-hide-phone {
+          height: 50%;
+          width: 10%;
+          object-fit: contain;
+        }
+        .input {
+          padding: 5px 10px;
+          border: none;
+          background-color: transparent;
+          color: #fff;
+          flex: 1;
+          @include calc-font-size(28);
+          font-style: normal;
+          font-weight: 500;
+          outline: none;
+          -webkit-text-fill-color: #fff;
+        }
+      }
+      ::placeholder {
+        color: #eee;
+        font-weight: 300;
+      }
+      .txt-label {
+        margin-right: 10px;
+        padding-bottom: 10px;
+        font-style: normal;
+        font-weight: bold;
+        @include calc-font-size(28);
+        color: #000000;
+      }
+      .txt-title {
+        text-align: center;
+        font-style: italic;
+        font-weight: bold;
+        @include calc-font-size(20);
+        line-height: 32px;
+        color: #ed1b69;
+        padding-bottom: 20px;
+      }
+      .submit {
+        padding: 9px 35px;
+        background: linear-gradient(90deg, #ed166b 0%, #f0bd33 126.56%);
+        border-radius: 30px;
+        font-weight: bold;
+        // @include calc-font-size(36);
+        font-size: 32px;
+        right: 0px;
+        align-self: center;
+        border: none;
+        color: #fff;
+        outline: none;
+        cursor: pointer;
+      }
+    }
+  }
+}
+.container-ehealth-content {
+  margin-top: 10px;
+  .col-img-guide {
+    padding: 5px 8px;
+  }
+}
+.tabs-content.carousel {
+  height: 60vh !important;
+  overflow-x: hidden;
+}
+.content--css {
+  justify-content: center;
+}
+.detail-ehealth {
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 100%;
+  .container-detail-ehealth {
+    border-width: 0px 1px 1px 1px;
+    border-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+    border-style: solid;
+    margin-top: 10px;
+    background: #ffffff;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    .content {
+      padding: 20px;
+      overflow: auto;
+      margin-top: 10px;
+      transform: none !important;
+      min-height: 50vh;
+      .container-gender {
+        .container-gender-title {
+          font-style: normal;
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 30px;
+          display: flex;
+          align-items: center;
+          text-transform: uppercase;
+          color: #00ba99;
+        }
+        .container-gender-item {
+          border: 1px solid #eeeeee;
+          box-sizing: border-box;
+          border-radius: 6px;
+          .txt-title {
+            display: flex;
+            background: rgba(0, 203, 167, 0.1);
+            @include calc-font-size(16);
+            line-height: 20px;
+            font-weight: bold;
+            padding: 10px 20px 12px 16px;
+            color: #000000;
+            text-transform: uppercase;
+          }
+          .container-gender-content {
+            padding: 16px;
+          }
+        }
+      }
+      .container-hospital {
+        .padding-top {
+          padding-top: 10px;
+        }
+        .container-services {
+          padding-top: 20px;
+          .list-services {
+            li {
+              margin-bottom: 15px;
+            }
+            .item-service-content {
+              padding: 16px;
+              p {
+                @include calc-font-size(16);
+                line-height: 22px;
+                margin: 0;
+                color: #000000;
+                &::after {
+                  display: block;
+                  content: "";
+                  clear: both;
+                }
+                .txt-lable {
+                  width: 170px;
+                  display: block;
+                  float: left;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .container-table {
+      flex-direction: row;
+      .group-table {
+        columns: 2;
+        .txt-title {
+          font-style: normal;
+          font-weight: bold;
+          @include calc-font-size(20);
+          text-transform: uppercase;
+          color: #00ba99;
+        }
+        .table-other {
+          background: #ffffff;
+          padding: 10px;
+          -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+          break-inside: avoid;
+        }
+      }
+    }
+    .table-root {
+      background: #ffffff;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      box-sizing: border-box;
+      border-collapse: separate;
+      border-radius: 6px;
+      width: 100%;
+      td,
+      th {
+        // border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+        font: 10px;
+      }
+      .table-content {
+        .service-content {
+          font-weight: bold;
+          font-size: 16px;
+          color: #000000;
+        }
+        .service-content.title-content {
+          background-color: rgba(136, 169, 221, 0.2);
+        }
+        .content-center {
+          text-align: center;
+        }
+        .content-name {
+          white-space: pre-wrap;
+        }
+      }
+      .table-content:nth-child(even) {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .table-header {
+        background: rgba(0, 203, 167, 0.1);
+        border-radius: 6px;
+        font-style: normal;
+        font-weight: bold;
+        color: #000000;
+        padding: 200px;
+        .header-center {
+          text-align: center;
+        }
+      }
+    }
+    .group-content-tab {
+      max-height: 62vh;
+      overflow-y: auto;
+      .bold {
+        font-weight: bold;
+        color: #000;
+      }
+      .container-services {
+        padding-top: 50px;
+        @include calc-font-size(18);
+        .service {
+        }
+        .container-sum {
+          flex-direction: row;
+          display: flex;
+          align-items: center;
+          margin-left: 20px;
+        }
+      }
+      .list-services {
+        list-style-type: none;
+      }
+      .item-service {
+        display: flex;
+        @include calc-font-size(16);
+        align-items: center;
+      }
+    }
+    .container-profile {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding: 20px;
+      height: 15vh;
+      align-self: flex-start;
+      border-bottom: 1px solid #000;
+      .img-profile {
+        height: 9vh;
+        width: 9vh;
+      }
+      .profile {
+        padding-left: 20px;
+        color: #222;
+        .patient-name {
+          // font-size: 20;
+          @include calc-font-size(20);
+          color: #ed176b;
+          font-weight: bold;
+        }
+        .date-booking {
+          @include calc-font-size(16);
+          // font-size: 16;
+        }
+      }
+    }
+  }
+
+  .container-result {
+    .list-result {
+      list-style-type: none;
+      padding-top: 20px;
+      li {
+        margin-bottom: 15px;
+      }
+      .txt-label {
+        font-style: normal;
+        font-weight: bold;
+        @include calc-font-size(16);
+        line-height: 20px;
+        color: #000000;
+        padding-bottom: 10px;
+        margin: 0;
+      }
+      .txt-title {
+        font-style: normal;
+        font-weight: bold;
+        @include calc-font-size(20);
+        text-transform: uppercase;
+        color: #00ba99;
+        padding-bottom: 20px;
+      }
+      .item-child {
+        margin-left: 15px;
+      }
+      .item-sick {
+        display: flex;
+        flex-direction: row;
+        font-weight: normal;
+        @include calc-font-size(16);
+        color: #000000;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        align-items: flex-start;
+        .txt-result-sick {
+          white-space: pre-wrap;
+        }
+        .img-verified {
+          height: 9px;
+          width: 9px;
+          // align-self: center;
+          @include margin-top(16);
+          margin-right: 7px;
+        }
+        .dots {
+          height: 10px;
+          width: 10px;
+          background-color: #00cba7;
+          border-radius: 5px;
+          margin-right: 5px;
+          @include margin-top(16);
+        }
+      }
+    }
+  }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// /* Firefox */
+// input[type="number"] {
+//   -moz-appearance: textfield;
+// }
+
+// input[type=number] {
+//   -webkit-text-security: disc;
+// }

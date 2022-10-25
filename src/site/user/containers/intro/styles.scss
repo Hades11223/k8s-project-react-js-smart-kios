@@ -1,0 +1,55 @@
+@import "@styles/utils.scss";
+.container-about {
+  background-color: #ddd;
+  margin: 10%;
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 30px;
+  border: 1px solid #bbb;
+  @include calc-font-size(42);
+  flex-direction: column;
+}
+.container-partner {
+  // width: 100%;
+  // columns: 2;
+  // padding-left: 20px;
+  // margin-top: 40px;
+  align-items: center;
+  height: 100%;
+  overflow: auto;
+  justify-content: center;
+  padding-bottom: 30px;
+  .img-partner {
+    height: 90%;
+    object-fit: contain;
+    margin-bottom: 60px;
+  }
+  // .container-item {
+  //   height: 20vh;
+  //   list-style-type: none;
+  //   margin-bottom: 20px;
+  //   margin-right: 20px;
+  //   border: 1px solid #bbb;
+  // }
+}
+.container-tab-about {
+  display: flex;
+  color: #000;
+  .tablink {
+    height: 8vh;
+    background-color: #fff;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    @include calc-font-size(42);
+    outline: none;
+    cursor: pointer;
+  }
+  .tab-select {
+    border-bottom: 0.4vh solid transparent !important;
+    height: 8vh;
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+    background-image: linear-gradient(to right, #fff, #fff), linear-gradient(to right, #009999, #00cc66);
+  }
+}

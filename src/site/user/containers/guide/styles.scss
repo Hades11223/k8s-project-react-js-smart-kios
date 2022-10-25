@@ -1,0 +1,39 @@
+@import "@styles/utils.scss";
+.container-guide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 30px;
+  height: 100%;
+  overflow: auto;
+  .video-guide {
+    width: 70vw;
+    height: 80vh;
+    align-self: "center";
+    outline: none;
+  }
+  .container-qr {
+    max-width: 30vw;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    // font-size: 24px;
+    @include calc-font-size(24);
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    font-weight: 600;
+    .qr-code {
+      flex-direction: column;
+      display: flex;
+      align-items: center;
+    }
+  }
+}
+
+canvas {
+  height: 25vh !important;
+  width: 25vh !important;
+}

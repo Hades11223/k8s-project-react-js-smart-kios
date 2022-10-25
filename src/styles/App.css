@@ -1,0 +1,99 @@
+body {
+  font-family: "Muli", sans-serif !important;
+  font-size: 16px !important;
+  color: #4a4a4a !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.color-primary {
+  color: #02c39a;
+}
+
+.color-red {
+  color: #f05673 !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+.color-gradient {
+  background: linear-gradient(90deg, #34458a 0%, #9b51e0 126.56%);
+}
+.color-gradient:hover {
+  background: linear-gradient(90deg, #ed166b 0%, #f0bd33 126.56%);
+}
+.color-gradient:active {
+  background: linear-gradient(90deg, #ed166b 0%, #f0bd33 126.56%);
+  animation: backgroundRoll 1s alternate-reverse;
+}
+/* @keyframes backgroundChange {
+  0% {
+    -webkit-transform: scale3d(0.8, 0.8, 0.8);
+    transform: scale3d(0.8, 0.8, 0.8);
+  }
+
+  50% {
+  }
+} */
+@keyframes backgroundRoll {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+.root-container {
+  /* background-image: url("../resources/images/ic_logo.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:  30vh 30vh; */
+  height: 87vh;
+  overflow: hidden;
+}
+
+.app {
+  height: 100vh;
+  overflow: hidden;
+}
+.logo-isofh{
+  position: fixed;
+  bottom: 8px;
+  right: 25px;
+}
+.logo-isofh img{
+  width: 150px;
+  object-fit: cover;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar:horizontal {
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  margin-bottom: 4px;
+  margin-top: 3px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(52, 69, 138, 0.7);
+  border-radius: 10px;
+}
