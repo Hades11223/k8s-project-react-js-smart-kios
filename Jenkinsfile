@@ -37,7 +37,7 @@ pipeline {
     stage('Deploy K8s App') {
       steps {
         script {
-          kubernetesDeploy(configs: "nodejs.yaml", kubeconfigId: "mykubeconfig")
+          kubernetesDeploy(configs: "bvp-kios.yaml", kubeconfigId: "mykubeconfig")
         }
       }
     }
