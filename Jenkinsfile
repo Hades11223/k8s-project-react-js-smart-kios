@@ -12,7 +12,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/Hades11223/k8s-nodejs.git'
+        git 'https://github.com/Hades11223/k8s-project-react-js-smart-kios.git'
       }
     }
 
