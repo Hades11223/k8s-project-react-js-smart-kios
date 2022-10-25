@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{444:function(n,e,i){"use strict";i.r(e);var t=i(0),a=i.n(t),c=i(72);e.default=function(){return a.a.createElement(c.a,{title:"Th\u1eddi gian l\xe0m vi\u1ec7c c\u1ee7a b\u1ec7nh vi\u1ec7n"})}}}]);
+//# sourceMappingURL=20.90333e74.chunk.js.map
