@@ -1,5 +1,5 @@
 FROM node:9.6.1
-RUN yarn global add serve
+#RUN yarn global add serve
 WORKDIR /app
 COPY package.json /app/package.json
 RUN npm install --silent
