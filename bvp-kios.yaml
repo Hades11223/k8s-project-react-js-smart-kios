@@ -14,7 +14,7 @@ spec:
         app: reactjs
     spec:
       containers:
-      - image: hades1122/reactjs:$BUILD_NUMBER
+      - image: hades1122/reactjs:27
         imagePullPolicy: Always
         name: kios
         ports:
