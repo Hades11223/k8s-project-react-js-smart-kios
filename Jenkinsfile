@@ -21,7 +21,7 @@ pipeline {
         sh 'cd /var/lib/jenkins/workspace/K8s-project-react-js-smart-kios'
         sh 'npm install'
         sh 'yarn build'
-        sh 'scp -r build/* /mnt/NFS_Share/project-react-js-smart-kios/app'
+        sh 'sudo scp -r build/* /mnt/NFS_Share/project-react-js-smart-kios/app'
       }
     }
     
