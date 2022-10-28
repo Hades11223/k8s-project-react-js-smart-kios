@@ -16,27 +16,11 @@ pipeline {
       }
     }
 
-    stage('Build image') {
+    stage('Build'){
       steps{
-        script {
-          dockerImage = docker.build registry + ":$BUILD_NUMBER"
-        }
-      }
-    }
-
-    stage('Push Image') {
-      steps{
-        script {
-          docker.withRegistry( '', registryCredential ) {
-            dockerImage.push()
-          }
-        }
-      }
-    }
-    
-    stage('Remove Unused docker image') {
-      steps{
-       sh "docker rmi $registry:$BUILD_NUMBER"
+        sh 'cd /var/lib/jenkins/workspace/K8s-project-react-js-smart-kios'
+        sh 'yarn build'
+        sh 'scp -r build/* /mnt/NFS_Share/project-react-js-smart-kios/app'
       }
     }
     
